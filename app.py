@@ -1,3 +1,8 @@
+import streamlit as st
+import easyocr
+import numpy as np
+from PIL import Image
+
 # Речник с вредни Е-номера и съставки
 harmful_ingredients = {
     "Е407": "Карагенан (възпаления, храносмилателни проблеми)",
@@ -142,5 +147,3 @@ st.info(
     "📌 Съвет: Опитай се да избягваш продукти "
     "с много Е-номера и изкуствени добавки."
 )
-
-   
